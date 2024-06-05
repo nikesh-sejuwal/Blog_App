@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'Second_Page.dart';
+import 'page_search/Second_Page.dart';
 import 'Third_Page.dart';
-import 'page_01/First_Page.dart';
+import 'page_home/First_Page.dart';
 
 class LandingPage extends StatefulWidget {
   const LandingPage({super.key});
@@ -43,7 +43,7 @@ class LandingPageState extends State<LandingPage> {
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search'),
-          BottomNavigationBarItem(icon: Icon(Icons.phone), label: 'phone'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'User'),
         ],
       ),
     );

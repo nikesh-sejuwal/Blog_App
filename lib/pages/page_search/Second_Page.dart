@@ -1,3 +1,5 @@
+import 'package:blog_project/pages/page_home/upper_first.dart';
+import 'package:blog_project/pages/page_search/Upper_Search.dart';
 import 'package:flutter/material.dart';
 
 class Second_Page extends StatelessWidget {
@@ -7,7 +9,7 @@ class Second_Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text('Second Page'),
+        UpperSearch(),
       ],
     );
   }
