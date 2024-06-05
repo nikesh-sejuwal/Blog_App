@@ -6,8 +6,9 @@ class Third_Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text('Third Page'),
+        Center(child: Text('THIS IS USER PAGE')),
       ],
     );
   }

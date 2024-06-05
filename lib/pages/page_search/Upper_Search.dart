@@ -1,5 +1,5 @@
-import 'package:blog_project/pages/page_home/upper_first.dart';
-import 'package:blog_project/pages/page_search/Selected_blog.dart';
+import 'package:blog_project/components/Posts.dart';
+// import 'package:blog_project/pages/page_search/Selected_blog.dart';
 import 'package:flutter/material.dart';
 
 class UpperSearch extends StatelessWidget {
@@ -75,12 +75,7 @@ class UpperSearch extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
               child: TabBarView(
                 children: [
-                  IconButton(
-                      onPressed: () {
-                        Navigator.of(context).push(
-                            MaterialPageRoute(builder: (c) => SelectedBlog()));
-                      },
-                      icon: Icon(Icons.work_sharp)),
+                  Posts(),
                   Text("THIS IS Latest"),
                   Text("THIS IS News"),
                   Text("THIS IS Favorite"),

@@ -1,4 +1,3 @@
-import 'package:blog_project/pages/page_home/upper_first.dart';
 import 'package:blog_project/pages/page_search/Upper_Search.dart';
 import 'package:flutter/material.dart';
 
